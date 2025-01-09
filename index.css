@@ -4,3 +4,59 @@ body{
     font-size: 16px;
 }
 
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #333;
+    color: white;
+    font-size: 20pt;
+    padding: 20px;
+    margin-bottom: 10px;
+}
+
+nav {
+    background-color: red;
+    padding: 15px;
+    margin-right: 10px;
+    display: flex;
+    gap: 10px;
+    }
+
+article {
+    padding: 20px;
+    margin-left: 220px;
+}
+
+footer {
+    background-color: lightslategrey;
+    color: white;
+    padding: 20px;
+    margin-top: 10px;
+}
+
+aside {
+    display: flex;
+    flex-direction: column;
+    width: 200px;
+    padding: 15px;
+    }
+
+aside ul {list-style-type: none;
+    padding: 0;
+    
+}
+
+aside ul li {
+    background-color: orange;
+    margin-bottom: 5px;
+    padding: 10px;
+    width: 100%;
+    text-align: center;
+    }
+
+figure {
+    background-color: crimson;
+    color: black;
+}
+
